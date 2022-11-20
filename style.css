@@ -3,13 +3,42 @@
     margin: 0;
 }
 
-h1 {
+body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: white;
-    padding: 10px 0;
+}
+
+h1 {
+    padding: 10px 0 10px 20px;
+}
+
+h2 {
+    color:   rgb(128, 255, 1) ;
 }
 
 .foto-de-fundo {
     background-image: url(./img/foto-emi.JPG);
+    background-size: cover;
+    height: 450px;
+    background-position: 50% 25%;
+    padding: 60px 30px 70px 30px;
 }
 
+.redes {
+    background-color: white;
+}
+
+.insta {
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    left: 930px;
+    top: 5px;
+}
+
+.tt {
+    height: 50px;
+    position: absolute; 
+    z-index: 2;
+    left: 980px;
+    top: 5px;
+}
