@@ -76,3 +76,34 @@ h2 {
 .cor {
     color: rgb(28, 121, 20);
 }
+
+.h2-2 {
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.habilidades {
+    background-color: #e7e7e7;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+}
+
+.button {
+    color: #fff;
+    background-color: #11a33dfb;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 40%;   
+  }
+
+.button:hover {
+    background-color: black;
+}
+
+.button:active {
+    color: rgb(196, 0, 0);
+}
