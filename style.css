@@ -12,7 +12,13 @@ h1 {
 }
 
 h2 {
-    color:   rgb(128, 255, 1) ;
+    color:   rgb(69, 194, 58) ;
+}
+
+
+.redes {
+    background-image: url(/img/branco.png);
+    background-size: cover;
 }
 
 .foto-de-fundo {
@@ -23,8 +29,11 @@ h2 {
     padding: 60px 30px 70px 30px;
 }
 
-.redes {
-    background-color: white;
+.paragrafo {
+    max-width: 22%;
+    background-image: url(./img/caderno.jpg);
+    border: solid;
+    padding: 10px 0 0 40px;
 }
 
 .insta {
