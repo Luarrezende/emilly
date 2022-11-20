@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    padding: 10px 0;
+}
+
+.foto-de-fundo {
+    background-image: url(./img/foto-emi.JPG);
+}
+
