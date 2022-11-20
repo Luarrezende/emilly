@@ -8,17 +8,28 @@ body {
 }
 
 h1 {
-    padding: 10px 0 10px 20px;
+    padding: 12px 719px 12px 85px;
 }
 
 h2 {
-    color:   rgb(69, 194, 58) ;
+    color: rgb(69, 194, 58);
 }
 
+.icon {
+    height: 50px;
+    position: absolute;
+    z-index: 3;
+    left: 20px;
+    top: 5px;
+    border-radius: 100%;
+}
 
 .redes {
     background-image: url(/img/branco.png);
     background-size: cover;
+    position: absolute;
+    z-index: 4;
+    position: fixed;
 }
 
 .foto-de-fundo {
@@ -30,6 +41,7 @@ h2 {
 }
 
 .paragrafo {
+    margin: 70px 0 0 0;
     max-width: 22%;
     background-image: url(./img/caderno.jpg);
     border: solid;
@@ -46,7 +58,7 @@ h2 {
 
 .tt {
     height: 50px;
-    position: absolute; 
+    position: absolute;
     z-index: 2;
     left: 980px;
     top: 5px;
