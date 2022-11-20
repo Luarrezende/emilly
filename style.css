@@ -8,11 +8,11 @@ body {
 }
 
 h1 {
-    padding: 12px 719px 12px 85px;  
+    padding: 12px 0 12px 90px;
 }
 
 h2 {
-    color: rgb(69, 194, 58);
+    color: rgb(28, 121, 20);
 }
 
 .icon {
@@ -30,6 +30,7 @@ h2 {
     position: absolute;
     z-index: 4;
     position: fixed;
+    width: 100%;
 }
 
 .foto-de-fundo {
@@ -62,4 +63,16 @@ h2 {
     z-index: 2;
     left: 980px;
     top: 5px;
+}
+
+.block-in-line {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 40%;
+    padding-left: 100px;
+}
+
+.cor {
+    color: rgb(28, 121, 20);
 }
